@@ -65,7 +65,6 @@
       (exit 1))))
 
 (define (main)
-  ; switch on first argument
   (let ((args (current-command-line-arguments)))
     (if (not (zero? (vector-length args)))
         (begin
